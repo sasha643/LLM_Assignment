@@ -27,7 +27,11 @@ LangChain Vector Database is a tool for creating a vector database from textual 
 
 ## Usage
 
-### 1. Creating the Vector Database
+### 1. Arranging documents
+
+Put all you documents from which you need to create the knowledge base in the ./doc folder.
+
+### 2. Creating the Vector Database
 
 Run the `upload.py` script to create the vector database:
 
