@@ -40,7 +40,7 @@ python upload.py
 ```
 This script loads documents from the specified directory, splits them into chunks, and creates embeddings using the Hugging Face model. It then builds a FAISS vector store from the document chunks and saves it locally.
 
-#### 3. Running the Streamlit App
+### 3. Running the Streamlit App
 
 Run the main.py script to launch the Streamlit app:
 
@@ -50,7 +50,7 @@ streamlit run main.py
 
 This script initializes Hugging Face Embeddings, loads the FAISS vector store created in the previous step, and configures Hugging Face Hub for model retrieval. It then creates a Streamlit form for users to input questions and displays relevant information about source documents.
 
-#### Configuration
+### 4. Configuration
 
 - In upload.py, you can customize the directory path, chunk size, and overlap parameters for loading and splitting documents.
 
