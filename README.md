@@ -55,3 +55,5 @@ This script initializes Hugging Face Embeddings, loads the FAISS vector store cr
 - In upload.py, you can customize the directory path, chunk size, and overlap parameters for loading and splitting documents.
 
 - In main.py, configure the model name, repository ID, and model parameters for Hugging Face embeddings and Hugging Face Hub retrieval.
+  
+Web APP URL:  https://sasha643-llm-assignment-main-luufl3.streamlit.app/
