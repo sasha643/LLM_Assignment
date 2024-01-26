@@ -47,3 +47,11 @@ Run the main.py script to launch the Streamlit app:
 ```bash
 streamlit run main.py
 ```
+
+This script initializes Hugging Face Embeddings, loads the FAISS vector store created in the previous step, and configures Hugging Face Hub for model retrieval. It then creates a Streamlit form for users to input questions and displays relevant information about source documents.
+
+#### Configuration
+
+- In upload.py, you can customize the directory path, chunk size, and overlap parameters for loading and splitting documents.
+
+- In main.py, configure the model name, repository ID, and model parameters for Hugging Face embeddings and Hugging Face Hub retrieval.
