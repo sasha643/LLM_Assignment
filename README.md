@@ -5,7 +5,6 @@ LangChain Vector Database is a tool for creating a vector database from textual 
 ## Requirements
 - Python 3.6 or later
 - [Streamlit](https://streamlit.io/)
-- [LangChain](https://github.com/langchain/langchain)
 - [langchain](https://www.langchain.com/)
 - [sentence_transformers](https://www.sbert.net/)
 - [faiss-cpu](https://pypi.org/project/faiss-cpu/)
