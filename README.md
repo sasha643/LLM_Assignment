@@ -12,8 +12,7 @@ LangChain Vector Database is a tool for creating a vector database from textual 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/langchain-vector-database.git
-    cd langchain-vector-database
+    git clone https://github.com/sasha643/LLM_Assignment.git
     ```
 
 2. **Install dependencies:**
